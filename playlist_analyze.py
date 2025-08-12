@@ -2,7 +2,7 @@ import os
 import xlsxwriter
 
 '''
-#same as what is higher, but only as function
+#the same as below, only in the form of a function
 
 def sorted_dict_of_music(path):
     results = [each for each in os.listdir(path) if each.endswith('.mp3')]
@@ -77,4 +77,5 @@ for name, score in (scores):
     row += 1
 '''
 workbook.close()
+
 
